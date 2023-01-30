@@ -29,6 +29,7 @@
 % for some dummy text
 \usepackage{lipsum}
 
+\usepackage[title]{appendix}
 
 
 \title{\textbf{Academic Report Template}}
@@ -80,9 +81,29 @@ References: \cite{Zhong2020InsertionLossThin}
 
 
 
+% Activate the appendix
+% from now on sections are numerated with capital letters
+\begin{appendices}
+% \addcontentsline{toc}{section}{Appendices}
+
+\section{Derivation of Eq.~(\ref{eq:29jf2})}
+\lipsum[1]
+
+\lipsum[1]
+
+\lipsum[1]
+
+\section{Illustration of Fig.~(\ref{fig:39:f020390})}
+\lipsum[1]
+
+\lipsum[1]
+\end{appendices}
+
+
 \addcontentsline{toc}{section}{References}
 \bibliographystyle{plain}
 \bibliography{zotero}
 
 \end{document}
+
 
