@@ -5,7 +5,6 @@
 % enable Chinese
 % \usepackage[UTF8]{ctex}
 
-
 % setting for levels
 \usepackage{hyperref}
 \setcounter{secnumdepth}{2}
@@ -21,6 +20,23 @@
 	pdftitle		=	{Academic Report Template},
 	pdfauthor		=	{Jiaxin Zhong},
 }
+
+% If use biblatex, it is necessary to comment 
+%   \bibliographystyle{unsrt}
+%   \bibliography{zotero}
+%   at the end of the document.
+% In addition, biber is required to compile: xelatex -> biber -> xelatex*2
+% \usepackage[
+%     giveninits=true, 
+%     maxbibnames=99,
+%     % style=numeric,
+%     sorting=none,
+%     doi = false,
+%     url = false,
+%     isbn = false,
+%     style=ieee, citestyle=numeric-comp,
+%     ]{biblatex}
+% \addbibresource{biblatex.bib}
 
 % open book mark at arbitrary level
 \usepackage[open, numbered]{bookmark}
@@ -61,7 +77,7 @@ This is a \LaTeX{} template designed for daily writing the academic documents, e
 \lipsum[6]
 
 \section{Figures}
-Figure~\ref{fig:39:f020390} shows the results of someting.
+Figure~\ref{fig:39:f020390} shows the results of something.
 \begin{figure}[!htb]
     \centering
     \includegraphics[width = 0.4\textwidth]{example-image}
